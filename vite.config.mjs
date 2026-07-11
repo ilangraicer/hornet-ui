@@ -6,6 +6,19 @@ export default defineConfig({
   resolve: {
     tsconfigPaths: true
   },
+  // Dev proxy → local hornet-ots (API is same-origin in production)
+  server: {
+    proxy: {
+      '/api': 'http://127.0.0.1:8081',
+      '/Marti': 'http://127.0.0.1:8081',
+      '/login': 'http://127.0.0.1:8081',
+      '/logout': 'http://127.0.0.1:8081',
+      '/socket.io': {
+        target: 'http://127.0.0.1:8081',
+        ws: true,
+      },
+    },
+  },
   test: {
     globals: true,
     environment: 'jsdom',

@@ -3,7 +3,7 @@
 Web app (React 18 + Mantine + Vite + TS) for the Hornet wildlife tracker. Fork of
 [brian7704/OpenTAKServer-UI](https://github.com/brian7704/OpenTAKServer-UI); `origin` = ilangraicer/hornet-ui, `upstream` = brian7704.
 
-**Master plan:** `~/Desktop/hornet/01 Tracker/Firmware & Software/Web App Plan.md`
+**Master plan:** `~/Public/projects/Projects/hornet/01 Tracker/Firmware & Software/Web App Plan.md`
 **Security plan:** `.../Web App Security Plan.md`
 
 ## Project decisions
